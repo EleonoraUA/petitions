@@ -1,0 +1,16 @@
+<body>
+	<div class="menu">
+	<ul class="list">
+		<li> <a href="/petitions/main/active"> Триває збір підписів </a></li>
+		<li> <a href="/petitions/main/in_process"> На розгляді </a></li>
+		<li> <a href="/petitions/main/with_answer"> З відповіддю </a></li>
+		<li> <a href="/petitions/main/statistics"> Статистика </a></li>
+		<?php
+			session_start();
+			if (!empty($_SESSION)) {
+		?>
+		<li> <a style='color:#4A708B' href="/petitions/main/add"> Додати петицію </a></li>
+		<?php } ?>
+	</ul>
+	</div>
+</body>

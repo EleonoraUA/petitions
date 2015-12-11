@@ -1,0 +1,174 @@
+body {
+	width:90%;
+	margin-left: 5%;
+}
+
+header {
+	min-height: 150px;
+	box-shadow: 0px 1px 2px 0px rgba(11,14,41,0.51);
+}
+
+img[name='logo'] {
+	width:500px;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+
+
+a[name='reg'], a[name='logIn'] {
+	text-decoration: none;
+	color: #01234D;
+}
+
+a[name='reg']:hover, a[name='logIn']:hover {
+	text-decoration: underline;
+}
+
+.list {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  box-shadow: inset 2px 11px 22px -6px rgba(219,219,219,1);
+}
+
+.list li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  height: 40px;
+  padding-left: 20px;
+  display: inline;
+ 
+}
+.list a {
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+}
+
+.list a:hover {
+	background-color: #A9A9A9;
+	border-radius: 10px;
+}
+.links {
+	margin-left:85%;
+	margin-top: -7%;
+}
+
+.form_div {
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #F7F7F7;
+}
+
+.form_div input, .form_div textarea {
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+   
+}
+
+.form_div input[type='submit'] {
+  width: 40%;
+  padding: 3%;
+  background: #4A708B;
+  border-bottom: 3px solid #01234D;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;    
+  color: #fff;
+}
+
+.form_div input[type='submit']:hover {
+  background: #01234D;
+}
+
+.form_div input:focus, .form_div textarea:focus {
+  box-shadow: 0 0 5px #01234D;
+  padding: 3%;
+  border: 1px solid #43D1AF;
+}
+
+.hello {
+  font-size: 20px;
+  position: absolute;
+  margin-top: 5%
+}
+
+textarea[name='benefit'] {
+  min-height: 100px;
+}
+
+textarea[name='text'] {
+  min-height: 200px;
+  min-width: 600px;
+}
+
+.why {
+  font-size: 13px;
+  color: #696969;
+}
+
+table[name='new'] {
+    margin-top: 0%;
+    width: 100%;
+    height: 50%;
+    border: 1px dotted;
+    border-color: #666666;
+    text-align: center;
+}
+
+table[name='new'] th {
+  background-color: lightblue;
+  text-align: center;
+}
+
+table[name='new'] td {
+    border: 1px dotted black;
+    padding:1%;
+}
+
+table[name='new'] td[name='text'] {
+  font-size: 15px;
+  width:70%;
+
+}
+
+.active {
+    margin-top: 0%;
+    width: 100%;
+    height: 50%;
+    border-color: #666666;
+    text-align: center;
+
+}
+
+.active th {
+  background-color: #01234D;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: times new roman;
+ } 
+
+.active td {
+    padding:1%;
+}
+.active td[name='text'] {
+    border-bottom: 2px inset #B5B5B5;
+}
+
+.active td[name='title'] {
+  background-color: #F5FFFA;
+  font-color: #4F004F;
+}
+
+#chart {
+  margin-left:5%;
+}

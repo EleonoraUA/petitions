@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="/petitions/views/style.css">
+	<title>Petitions</title>
+</head>
+<header>
+	<img name = "logo" src="/petitions/views/img/ukraine.jpg" />
+	<div class="links">
+	<?php
+	error_reporting(0);
+	session_start();
+	if (empty($_SESSION)) { ?>
+		<a name="logIn" href="/petitions/login"> Log In </a> <br />	
+		<a name="reg" href="/petitions/registration"> Registration </a>
+	<?php 
+	} else { 
+		echo "<div class='hello'>"."Welcome, ".$_SESSION['first_name']."!".'</div>';
+
+	?> 
+	<a name="reg" href="/petitions/login/out"> Log Out </a>
+	<?php 
+	} ?>
+	</div>
+</header>
